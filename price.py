@@ -1,5 +1,5 @@
 price = 100
-discount = 5 
+discount = 6 
 price_with_disc = price - price *discount / 100
 
 
@@ -15,4 +15,4 @@ def discounted(price, discount, max_discaunt=50):
         price_with_disc = price - price *discount / 100
     return price_with_disc
 
-discounted(100,50,100)
+discounted(10,50,100)
